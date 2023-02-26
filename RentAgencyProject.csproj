@@ -57,7 +57,6 @@
     <Compile Include="DealForm.Designer.cs">
       <DependentUpon>DealForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="IUser.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RentAgencyProject
@@ -12,7 +10,6 @@ namespace RentAgencyProject
     [Serializable]
     public class User
     {
-        //private int id;
         private string surname;
         private string name;
         private string midname;
@@ -22,7 +19,6 @@ namespace RentAgencyProject
 
         public User(string surname, string name, string midname, DateTime birth_date, string phone)
         {
-            //this.id = 1;
             this.surname = surname;
             this.name = name;
             this.midname = midname;
